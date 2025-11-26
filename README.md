@@ -1,7 +1,6 @@
 Phishing URL Detection using Random Forest & ANN
 A Machine Learning project that detects whether a given URL is legitimate or phishing by extracting structural and lexical features.
 This project includes:
-
 1. Feature extraction module
 2. Trained Random Forest & ANN models
 3. Streamlit web application for real-time URL prediction
@@ -14,14 +13,12 @@ Features
 5. Models trained and saved using Pickle
 
 Dataset
-The dataset used for training is:
-phishing.csv from kaggle
-Contains extracted lexical/structural features
+The dataset used for training is phishing.csv from kaggle Contains extracted lexical/structural features.
 Label column: status (1 = phishing, 0 = legitimate)
 
 Execution:
-Download the folder.
-Make sure your system has streamlit installed 
-Open terminal and locate the aapp.py file
-Run the command : streamlit run app.py
+1. Download the folder.
+2. Make sure your system has streamlit installed 
+3. Open terminal and locate the aapp.py file
+4. Run the command : streamlit run app.py
 
